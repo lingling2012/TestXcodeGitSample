@@ -25,11 +25,19 @@
                                     <action selector="clickTheButton:" destination="2" eventType="touchUpInside" id="v07-FG-bQR"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="this is new branch" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RfK-h9-yg3">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="bottom" secondItem="RfK-h9-yg3" secondAttribute="bottom" constant="146" id="4Mh-Zu-9WF"/>
                             <constraint firstItem="41l-zZ-UGg" firstAttribute="top" secondItem="3" secondAttribute="top" constant="252" id="5zc-tU-XWp"/>
-                            <constraint firstItem="41l-zZ-UGg" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="cud-WP-8yL"/>
+                            <constraint firstItem="RfK-h9-yg3" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="cm9-VA-mmC"/>
+                            <constraint firstItem="RfK-h9-yg3" firstAttribute="leading" secondItem="41l-zZ-UGg" secondAttribute="leading" type="default" id="oV2-yX-moM"/>
+                            <constraint firstItem="41l-zZ-UGg" firstAttribute="trailing" secondItem="RfK-h9-yg3" secondAttribute="trailing" type="default" id="wWz-Ls-BSC"/>
                         </constraints>
                     </view>
                 </viewController>
